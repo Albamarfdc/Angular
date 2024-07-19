@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
 })
 export class CounterComponent {
   public counter: number = 10;
+  //Por defecto
 
   increaseBy(value: number): void {
     this.counter > 0 ? (this.counter += value) : (this.counter = 0);
